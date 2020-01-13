@@ -1,0 +1,29 @@
+table {
+    float: right;
+    min-width: 100%;
+    margin-top: 10px;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background-color: var(--table-grey);
+    cursor: pointer;
+}
+
+td {
+    min-width: 30px;
+    border-bottom: 1px solid var(--grey-light);
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: var(--white);
+}
+
+img {
+    max-width: 50px;
+}

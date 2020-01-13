@@ -1,0 +1,41 @@
+.range-slider {
+    padding: 50px;
+    display: flex;
+}
+
+.range-slider__scale {
+    border-radius: 5px;
+    background: #E0E0E0;
+    background: linear-gradient(left top, #E0E0E0, #EEEEEE);
+    width: 500px;
+    height: 15px;
+    display: flex;
+    position: relative;
+}
+
+.range-slider__left-thumb, .range-slider__right-thumb {
+    width: 10px;
+    height: 25px;
+    position: absolute;
+    top: -5px;
+    background: blue;
+    cursor: pointer;
+}
+
+.range-slider__left-thumb {
+    left: 0%;
+    border-radius: 10px 3px 3px 10px;
+}
+
+.range-slider__right-thumb {
+    left: 0%;
+    border-radius: 3px 10px 10px 3px;
+}
+
+.range-slider__left-indicator {
+    min-width: 30px;
+}
+
+.range-slider__right-indicator {
+    min-width: 30px;
+}

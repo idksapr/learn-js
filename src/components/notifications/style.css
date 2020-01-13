@@ -1,0 +1,22 @@
+.notification {
+    position: fixed;
+    padding: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.notification-info {
+    background-color: var(--middle-blue);
+}
+
+.notification-notice {
+    background-color: var(--yellow);
+}
+
+.notification-danger {
+    background-color: var(--red);
+}
+
+.notification-success {
+    background-color: var(--green);
+}

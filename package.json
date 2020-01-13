@@ -1,0 +1,28 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "Learn JavaScript",
+  "main": "script.js",
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [],
+  "author": "Dmitry Ivanov",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.0.3",
+    "karma-json-reporter": "^1.2.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "webpack": "^4.41.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
